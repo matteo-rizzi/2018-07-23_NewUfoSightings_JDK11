@@ -6,6 +6,11 @@ public class TestModel {
 		// TODO Auto-generated method stub
 
 		Model m = new Model();
+		
+		m.creaGrafo(2000, "circle");
+		
+		m.simula(2000, "circle", 20, 75);
+		System.out.println(m.getStates());
 	}
 
 }
